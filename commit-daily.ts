@@ -5,3 +5,4 @@ const commitMessage = `Automated commit on ${new Date().toLocaleDateString()}`;
 execSync(`git add .`);
 execSync(`git commit -m "${commitMessage}"`);
 execSync(`git push`);
+execSync(`npm install --save-dev @types/node`);
