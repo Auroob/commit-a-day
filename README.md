@@ -33,7 +33,7 @@ jobs:
       - run: npm install
 
       - run: npx ts-node commit-daily.ts
-
+```
 
 5. Save the file and close it.
 6. Push your changes to GitHub.
